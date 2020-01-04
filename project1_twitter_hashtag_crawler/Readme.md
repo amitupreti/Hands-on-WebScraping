@@ -34,11 +34,18 @@ scrapy list
 ```
 if you see `twittercrawler` than you are all set.
 
-Windows:
 
+Windows:
+1. Install python3 if you haven't already
+2. Download the project. https://github.com/amitupreti/Hands-on-WebScraping/archive/master.zip
+3. Extract the project 
+4. Open cmd and navigate inside the project directory
 ```sh
-edit autoexec.bat
+cd Hands-on-WebScraping/project1_twitter_hashtag_crawler
 ```
+5. follow step 2 and 3 from max/linux installation
+
+
 
 ## Usage example
 
