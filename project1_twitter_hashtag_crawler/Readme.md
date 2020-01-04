@@ -36,14 +36,14 @@ if you see `twittercrawler` than you are all set.
 
 
 Windows:
-1. Install python3 if you haven't already
+1. Install [python3](https://www.python.org/downloads/) if you haven't already
 2. Download the project. https://github.com/amitupreti/Hands-on-WebScraping/archive/master.zip
 3. Extract the project 
 4. Open cmd and navigate inside the project directory
 ```sh
 cd Hands-on-WebScraping/project1_twitter_hashtag_crawler
 ```
-5. follow step 2 and 3 from max/linux installation
+5. Follow step 2 and 3 from max/linux installation
 
 
 
@@ -51,7 +51,6 @@ cd Hands-on-WebScraping/project1_twitter_hashtag_crawler
 
 A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Development setup
 
