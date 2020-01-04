@@ -43,14 +43,15 @@ Windows:
 ```sh
 cd Hands-on-WebScraping/project1_twitter_hashtag_crawler
 ```
-5. Follow step 2 and 3 from max/linux installation
+5. Follow step 2 and 3 from Mac/Linux installation
 
 
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+1. Put the hashtags in a csv file seperated by new line. For example, I have included `myhashtags.csv`
 
+[Hashtags file](https://i.paste.pics/225079df0d3dc27d66430b1553b2ac39.png)
 
 ## Development setup
 
