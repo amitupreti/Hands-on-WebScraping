@@ -4,8 +4,7 @@
 
 > Notice: The crawler is meant to be used for collecting data purely for academic and research purpose only. I am not responsible for any legal issue that might arise for any unintended use of this crawler
 
-[![Python Version][npm-image]][npm-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 This is written using scrapy and python. The logic is straight forward. We are simply sending get requests to the mobile version of the twitter(mobile.twitter.com) to collect the list of tweets and sending get requests to the web version to parse tweet details.
 ![](header.png)
