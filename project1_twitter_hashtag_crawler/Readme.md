@@ -51,7 +51,22 @@ cd Hands-on-WebScraping/project1_twitter_hashtag_crawler
 
 1. Put the hashtags in a csv file seperated by new line. For example, I have included `myhashtags.csv`
 
-[Hashtags file](https://i.paste.pics/225079df0d3dc27d66430b1553b2ac39.png)
+![Hashtags file](https://i.paste.pics/225079df0d3dc27d66430b1553b2ac39.png)
+
+2. Run the crawler with your hashtag file and the desired [output formats](https://docs.scrapy.org/en/latest/topics/feed-exports.html)(JSON,JSON lines,CSV,XML)
+
+* For csv
+   ```sh
+    scrapy crawl twittercrawler -a filename=myhashtags.csv -o mydata.csv
+
+   ```
+   
+* For JSON
+   ```sh
+    scrapy crawl twittercrawler -a filename=myhashtags.csv -o mydata.json
+
+   ```
+
 
 ## Development setup
 
