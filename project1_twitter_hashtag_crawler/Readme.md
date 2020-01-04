@@ -49,7 +49,7 @@ cd Hands-on-WebScraping/project1_twitter_hashtag_crawler
 
 ## Usage example
 
-1. Put the hashtags in a csv file seperated by new line. For example, I have included `myhashtags.csv`
+1. Put the hashtags in a csv file seperated by new line. For example, I have included `myhashtags.csv` as a sample.
 
 ![Hashtags file](https://i.paste.pics/225079df0d3dc27d66430b1553b2ac39.png)
 
