@@ -15,10 +15,11 @@ This is written using scrapy and python. The logic is straight forward. We are s
 OS X & Linux:
 
 1. Download the project
+
 ```sh
 git clone https://github.com/amitupreti/Hands-on-WebScraping
+
 cd Hands-on-WebScraping/project1_twitter_hashtag_crawler
-npm install my-crazy-module --save
 ```
 2. Install the dependencies
 
