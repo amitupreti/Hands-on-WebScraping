@@ -1,6 +1,7 @@
 
 # Twitter Hashtag crawler
 > A fast and unofficial twitter crawler to collect tweets using hashtag search.
+
 > Notice: The crawler is meant to be used for collecting data purely for academic and research purpose only. I am not responsible for any legal issue that might arise for any unintended use of this crawler
 
 [![Python Version][npm-image]][npm-url]
