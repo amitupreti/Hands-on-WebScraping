@@ -27,6 +27,13 @@ cd Hands-on-WebScraping/project1_twitter_hashtag_crawler
 pip install -r requirements.txt --user
 ```
 
+3. Verify the crawler spider exists
+
+```sh
+scrapy list
+```
+if you see `twittercrawler` than you are all set.
+
 Windows:
 
 ```sh
