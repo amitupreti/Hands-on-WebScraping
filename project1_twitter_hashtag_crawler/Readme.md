@@ -70,6 +70,23 @@ cd Hands-on-WebScraping/project1_twitter_hashtag_crawler
 ![sample images](https://i.paste.pics/68a64bab743150e00af4cd9eea9af8dc.png)
 
 
+
+## Data Columns
+* username
+* full_name
+* twitter_url
+* tweet_text
+* tweet_time
+* number_of_likes
+* no_of_retweets
+* no_of_replies
+* mentions
+* no_of_mentions
+* hashtags
+* no_of_hashtags
+* call_to_action
+* image_url
+
 ## Release History
 
 
