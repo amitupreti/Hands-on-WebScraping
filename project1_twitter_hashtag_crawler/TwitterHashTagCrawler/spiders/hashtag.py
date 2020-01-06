@@ -17,7 +17,7 @@ class HashtagSpider(scrapy.Spider):
     # Override here
     custom_settings = {
         'USER_AGENT': 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36',
-        'CONCURRENT_REQUESTS': 1, 'DOWNLOAD_DELAY': 2, 'LOG_LEVEL': 'INFO'}
+        'CONCURRENT_REQUESTS': 5, 'DOWNLOAD_DELAY': 0, 'LOG_LEVEL': 'INFO'}
 
     def __init__(self, filename=''):
         if not filename:
