@@ -76,8 +76,8 @@ If you feel like the crawler is a little slow then find the hashtag.py file in t
 custom_settings = {
     'USER_AGENT': 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36',
     'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1, 'LOG_LEVEL': 'INFO'}
-    ```
->Here CONCURRENT_REQUESTS is the number of URLs that will be processed parallelly and DOWNLOAD_DELAY is a wait between each >request. So, Increase CONCURRENT_REQUESTS and decrease DOWNLOAD_DELAY (minimum value for download delay is 0).
+```
+> Here CONCURRENT_REQUESTS is the number of URLs that will be processed parallelly and DOWNLOAD_DELAY is a wait between each  request. So, Increase CONCURRENT_REQUESTS and decrease DOWNLOAD_DELAY (minimum value for download delay is 0).
 
 
 ## Data Columns
