@@ -7,7 +7,7 @@ import sys
 from scrapy.crawler import CrawlerProcess
 from utils import get_links, get_hashtags, get_mentions
 import logging
-
+import ipdb
 
 class HashtagSpider(scrapy.Spider):
     name = 'twittercrawler'
@@ -63,8 +63,13 @@ class HashtagSpider(scrapy.Spider):
         full_name = response.xpath(
             '//*[@class="permalink-inner permalink-tweet-container"]//*[@class="FullNameGroup"]/strong/text()').get(
             default='')
-        tweet_text = ' '.join(response.xpath(
-            '//*[contains(@class,"permalink-inner permalink-tweet-container")]//*[@class="js-tweet-text-container"]/p//text()').getall()).strip()
+        
+        try:
+            tweet_text = response.xpath('//title/text()').get(default='').split(':')[1].strip()
+            
+        except:
+            tweet_text = ' '.join(response.xpath(
+                '//*[contains(@class,"permalink-inner permalink-tweet-container")]//*[@class="js-tweet-text-container"]/p//text()').getall()).strip()
         image_list = response.xpath(
             '//*[contains(@class,"permalink-inner permalink-tweet-container")]//*[@class="AdaptiveMediaOuterContainer"]//img/@src').getall()
         date_time = response.xpath(
@@ -82,7 +87,7 @@ class HashtagSpider(scrapy.Spider):
         replies = response.xpath(
             '//*[contains(@class,"permalink-inner permalink-tweet-container")]//*[contains(@id,"profile-tweet-action-reply-count")]/parent::span/@data-tweet-stat-count').get(
             default='')
-
+        
         mentions = get_mentions(tweet_text)
         hashtags = get_hashtags(tweet_text)
         cta = get_links(tweet_text)
@@ -105,4 +110,4 @@ class HashtagSpider(scrapy.Spider):
 
         }
         yield result
-        print(result)
+        
