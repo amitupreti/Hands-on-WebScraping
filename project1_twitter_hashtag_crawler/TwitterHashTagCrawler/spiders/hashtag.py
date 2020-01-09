@@ -7,7 +7,6 @@ import sys
 from scrapy.crawler import CrawlerProcess
 from utils import get_links, get_hashtags, get_mentions
 import logging
-import ipdb
 
 class HashtagSpider(scrapy.Spider):
     name = 'twittercrawler'
