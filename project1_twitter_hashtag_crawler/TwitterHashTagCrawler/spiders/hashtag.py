@@ -33,7 +33,7 @@ class HashtagSpider(scrapy.Spider):
             logging.info(f'{len(hashtags)} hashtags found')
         for hashtag in hashtags:
             if hashtag:
-                search_url = "https%3A%2F%2Fmobile.twitter.com%2Fsearch%3Fq%3D%28%23" + hashtag.lower()+"%29"
+                search_url = "https://mobile.twitter.com/hashtag/" + hashtag.lower()
 
                 yield scrapy.Request(search_url, callback=self.find_tweets, dont_filter=True)
 
