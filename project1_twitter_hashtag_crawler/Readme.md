@@ -1,3 +1,4 @@
+#### Depricated. No longer maintained.
 
 # Twitter Hashtag crawler
 > A fast and unofficial twitter crawler to collect tweets using hashtag search.
